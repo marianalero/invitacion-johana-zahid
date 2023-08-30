@@ -2271,7 +2271,6 @@ input[type="radio"] {
     background-repeat: repeat-y;
     background-position-x: 50%!important;
     height: 100vh;
-    background-attachment: fixed;
 }
 
 
