@@ -2274,11 +2274,7 @@ input[type="radio"] {
     background-attachment: fixed;
 }
 
-@media only screen and (max-device-width: 1366px) {
-  #qbootstrap-imagen {
-    background-attachment: scroll;
-  }
-}
+
 
 #qbootstrap-imagen .overlay {
   position: absolute !important;
