@@ -103,6 +103,13 @@
 	var parallax = function() {
 		if ( !isiPad() || !isiPhone() ) {
 			$(window).stellar();
+		}else{
+			$(window).stellar({
+				horizontalScrolling: false,
+				scrollProperty: 'transform',
+				positionProperty: 'transform',
+				verticalOffset: -100
+			});
 		}
 	};
 
