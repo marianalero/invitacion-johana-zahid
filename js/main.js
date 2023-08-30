@@ -293,9 +293,9 @@
 		var message= "Hola,";
 		var radioValue = $("input[name='confirm']:checked").val();
             if(radioValue == "confirm"){
-				message+="%20quiero%20confirmar%20mi%20asistencia%20para%20la%20boda%20de%20Estefania%20y%20Leobardo%20para%20"+number+" personas. Mi nombre es "+name+".%20Télefono:"+telefono;
+				message+="%20quiero%20confirmar%20mi%20asistencia%20para%20la%20boda%20de%20Johana%20y%20Zahid%20para%20"+number+" personas. Mi nombre es "+name+".%20Télefono:"+telefono;
             }else{
-				message+="%20lamentablemente%20no%20podré%20asistir%20a%20la%20boda%20de%20Estefania%20y%20Leobardo. Mi nombre es "+name+".%20Télefono:"+telefono;
+				message+="%20lamentablemente%20no%20podré%20asistir%20a%20la%20boda%20de%20Johana%20y%20Zahid. Mi nombre es "+name+".%20Télefono:"+telefono;
 			}
 	
 		window.open("https://wa.me/+526621563799/?text="+ message,"_blank");
